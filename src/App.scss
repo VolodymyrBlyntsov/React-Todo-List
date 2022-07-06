@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+$blue: #2E82FF;
+$radius: 10px;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $blue;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 45%;
+  min-height: 450px;
+  background-color: white;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: $radius;
+  padding-bottom: 32px;
+}
+
+h1 {
+  margin: 32px 0;
+  font-size: 40px;
+  font-family: 'Kanit', sans-serif;
+}
+
+.seperator {
+  height: 5px;
+  margin: -10px 0 10px 0;
+  width: 80%;
+  align-self: center;
+  background-color: $blue;
+  border-radius: $radius;
+}
+
+::-webkit-scrollbar {
+  width: 0px; 
+  background: transparent;
+}

@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import './App.css';
-import TodoForm from './components/TodoForm';
-import TodoItem from './components/TodoItem';
+import './App.scss';
+import TodoForm from './components/Form/TodoForm';
+import TodoItem from './components/Item/TodoItem';
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -13,7 +13,6 @@ function App() {
     }
     let todo = {id: id, text: text, completed: false}
     let newTodo = [todo, ...todos]
-    console.log(newTodo)
     setTodos(newTodo)
   };
 

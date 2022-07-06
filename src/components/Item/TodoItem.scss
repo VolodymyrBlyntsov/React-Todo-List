@@ -1,0 +1,32 @@
+$blue: #2E82FF;
+$w: white;
+$padding: 16px;
+$radius: 10px;
+
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 4px auto;
+    color: $w;
+    background-color: $blue;
+    padding: $padding;
+    border-radius: $radius;
+    width: 80%;
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+}
+  
+.iconsContainer {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+  
+.icon {
+    color: $w;
+}
+  
+.completed {
+    text-decoration: line-through;
+}

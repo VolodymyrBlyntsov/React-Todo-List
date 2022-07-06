@@ -1,0 +1,28 @@
+$blue: #2E82FF;
+$padding: 16px;
+
+.todo-form {
+    margin-bottom: 32px;
+    font-family: 'Kanit', sans-serif;
+}  
+
+.todo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid $blue;
+    outline: none;
+    width: 463px;
+}
+  
+.todo-button {
+    padding: $padding;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+    background-color: $blue;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+    font-size: 11px;
+}
+ 
